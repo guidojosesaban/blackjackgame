@@ -26,16 +26,25 @@ Diseño Futurista (HyperDeck): Estilo oscuro con acentos de color Neón Azul/Cya
 Responsive Design: La interfaz se adapta correctamente a pantallas de escritorio y dispositivos móviles gracias a CSS Grid y Media Queries.
 
 🚀 Estructura de Archivos
-blackjack-hyperdeck/
-├── index.html                  # Estructura principal del juego.
-├── assets/
-│   ├── css/
-│   │   └── styles.css          # Estilos futuristas, 3D y responsivos.
-│   ├── js/
-│   │   ├── juego.js            # Lógica completa del Blackjack (Core JS).
-│   │   └── underscore-min.js   # Librería Lodash (para barajar el deck).
-│   └── cartas/                 # Directorio que contiene las imágenes de las cartas.
-└── README.md                   # Este archivo.
+La estructura del proyecto es clara y modular. Todos los archivos se encuentran bajo el directorio principal blackjack-hyperdeck/:
+
+index.html
+  -  Propósito: Estructura principal de la aplicación y el juego.
+
+README.md
+  -  Propósito: Este documento de información del proyecto.
+
+assets/
+  assets/css/
+    -  styles.css (Contiene todos los estilos futuristas, 3D y responsivos.)
+
+  assets/js/
+    -  juego.js (Contiene toda la lógica principal del juego de Blackjack.)
+    -  underscore-min.js (Librería Lodash/Underscore utilizada para la función de barajar.)
+
+  assets/cartas/
+    -  Propósito: Directorio que contiene todas las imágenes de las cartas.
+
 💡 Cómo Ejecutar el Proyecto
 Clonar el Repositorio: Descarga o clona la carpeta del proyecto.
 
